@@ -1,0 +1,12 @@
+WIDTH = 20 #ширина
+HEIGHT = 20 #высота
+SCALE = 30 #масштаб
+FPS = 60 #частота кадров в секунду
+SCREEN_COLOR = 'black'
+ELEMENT_SIZE = 28
+ELEMENT_RADIUS = 3
+SCORE_COLOR = 'white'
+GAME_OVER_COLOR = 'red'
+NITIAL_SPEED_DELAY = FPS//3
+SNAKE_COLOR = 'green'
+APPLE_COLOR = 'red'
