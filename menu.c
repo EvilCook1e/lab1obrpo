@@ -5,9 +5,9 @@ int main() {
     
     while (1) {
         system("cls");
-        printf("1. Змейка (main.py)\n");
-        printf("2. Поиск строк (linter.py)\n");
-        printf("3. Выход\n");
+        printf("1. snake (main.py)\n");
+        printf("2.  stulkov (linter.py)\n");
+        printf("3. exit\n");
         printf("> ");
         scanf("%d", &choice);
         
@@ -16,7 +16,7 @@ int main() {
         else if (choice == 3) break;
         
         if (choice != 3) {
-            printf("\nНажмите Enter для продолжения...");
+            printf("\npress Enter to continue...");
             while (getchar() != '\n');
             getchar();
         }
